@@ -2,10 +2,10 @@
 	.panel.panel-primary
 		.panel-heading Sign in
 		.panel-body
-			= simple_form_for :user, url: session_path do |f|
+			= simple_form_for :session, url: session_path do |f|
 				= f.error_notification
 				= f.input :email, placeholder: 'Enter email'
 				= f.input :password, placeholder: 'Password'
-				= f.button :submit
+				= f.button :submit, "Sign In"
 
 
