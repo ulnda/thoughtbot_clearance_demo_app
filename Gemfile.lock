@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/plataformatec/simple_form.git
+  revision: 546f064d5d0b359f94ef239ee2fe8fbbcf14add1
+  branch: master
+  specs:
+    simple_form (3.1.0)
+      actionpack (~> 4.0)
+      activemodel (~> 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -29,6 +38,8 @@ GEM
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
     bcrypt (3.1.9)
+    bootstrap-sass (3.3.1.0)
+      sass (~> 3.2)
     builder (3.2.2)
     clearance (1.6.0)
       bcrypt
@@ -119,6 +130,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (~> 3.3.0)
   clearance
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
@@ -126,6 +138,7 @@ DEPENDENCIES
   rails (= 4.1.6)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
+  simple_form (~> 3.1.0.rc1)!
   slim
   spring
   sqlite3
