@@ -1,0 +1,11 @@
+.col-md-6
+	.panel.panel-primary
+		.panel-heading Sign in [ test: user@example.com / 123456 ]
+		.panel-body
+			= simple_form_for :session, url: session_path do |f|
+				= f.error_notification
+				= f.input :email, placeholder: 'Enter email'
+				= f.input :password, placeholder: 'Password'
+				= f.button :submit, "Sign In"
+
+
